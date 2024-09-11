@@ -2,130 +2,78 @@ export const summary = {
   totalTasks: 10,
   last10Task: [
     {
-      _id: "65c5f12ab5204a81bde866a9",
-      title: "Test task",
-      date: "2024-02-09T00:00:00.000Z",
-      priority: "high",
-      stage: "todo",
-      assets: [
-        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707471138863original-a005132062ca5bafc505c4c74f0e1865.jpg?alt=media&token=55f909f2-7f05-42f3-af4f-dc7f87cdea1d",
-        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707471144712PsZch9E1_400x400.jpg?alt=media&token=7ce62c7e-c240-4032-83c6-bb6c9cdc0d4b",
+      "_id": "65c5f12ab5204a81bde866a9",
+      "title": "Complete Sprint Planning",
+      "date": "2024-09-11T00:00:00.000Z",
+      "priority": "high",
+      "stage": "in-progress",
+      "assets": [
+        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707471138863project-planning-chart.jpg?alt=media&token=55f909f2-7f05-42f3-af4f-dc7f87cdea1d",
+        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707471144712team-collaboration.jpg?alt=media&token=7ce62c7e-c240-4032-83c6-bb6c9cdc0d4b"
       ],
-      team: [
+      "team": [
         {
-          _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
-          title: "Administrator",
-          role: "Admin",
-          email: "admin@gmail.com",
+          "_id": "65c202d4aa62f32ffd1303cc",
+          "name": "Rahul Khandelwal",
+          "title": "DevOps Engineer",
+          "role": "Engineer",
+          "email": "dynamicrahul952156@gmail.com"
         },
         {
-          _id: "65c30b96e639681a13def0b5",
-          name: "Jane Smith",
-          title: "Product Manager",
-          role: "Manager",
-          email: "jane.smith@example.com",
+          "_id": "65c30b96e639681a13def0b5",
+          "name": "Samantha Brown",
+          "title": "Product Manager",
+          "role": "Manager",
+          "email": "samantha.brown@example.com"
         },
         {
-          _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
-          title: "UX Designer",
-          role: "Designer",
-          email: "alex.johnson@example.com",
+          "_id": "65c317360fd860f958baa08e",
+          "name": "Michael Lee",
+          "title": "UI/UX Designer",
+          "role": "Designer",
+          "email": "michael.lee@example.com"
         },
       ],
+
+
       isTrashed: false,
       activities: [],
       subTasks: [
         {
-          title: "Task manager youtube tutorial",
-          date: "2024-02-09T00:00:00.000Z",
-          tag: "tutorial",
-          _id: "65c5f153b5204a81bde866c8",
+          "_id": "65c5f12ab5204a81bde866a9",
+          "title": "Complete Sprint Planning",
+          "date": "2024-09-11T00:00:00.000Z",
+          "priority": "high",
+          "stage": "in-progress",
+          "assets": [
+            "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707471138863project-planning-chart.jpg?alt=media&token=55f909f2-7f05-42f3-af4f-dc7f87cdea1d",
+            "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707471144712team-collaboration.jpg?alt=media&token=7ce62c7e-c240-4032-83c6-bb6c9cdc0d4b"
+          ],
+          "team": [
+            {
+              "_id": "65c202d4aa62f32ffd1303cc",
+              "name": "Rahul Khandelwal",
+              "title": "DevOps Engineer",
+              "role": "Engineer",
+              "email": "dynamicrahul952156@gmail.com"
+            },
+            {
+              "_id": "65c30b96e639681a13def0b5",
+              "name": "Samantha Brown",
+              "title": "Product Manager",
+              "role": "Manager",
+              "email": "samantha.brown@example.com"
+            },
+            {
+              "_id": "65c317360fd860f958baa08e",
+              "name": "Michael Lee",
+              "title": "UI/UX Designer",
+              "role": "Designer",
+              "email": "michael.lee@example.com"
+            }
+          ]
         },
-      ],
-      createdAt: "2024-02-09T09:32:26.574Z",
-      updatedAt: "2024-02-09T09:36:53.339Z",
-      __v: 1,
-    },
-    {
-      _id: "65c5d547660756f6fd453a7a",
-      title: "Duplicate - Duplicate - Review Code Changes",
-      date: "2024-02-09T00:00:00.000Z",
-      priority: "medium",
-      stage: "in progress",
-      assets: [],
-      team: [
-        {
-          _id: "65c317360fd860f958baa08e",
-          name: "Alex Johnson",
-          title: "UX Designer",
-          role: "Designer",
-          email: "alex.johnson@example.com",
-        },
-        {
-          _id: "65c3176a0fd860f958baa099",
-          name: "Emily Wilson",
-          title: "Data Analyst",
-          role: "Analyst",
-          email: "emily.wilson@example.com",
-        },
-      ],
-      isTrashed: false,
-      activities: [
-        {
-          type: "started",
-          activity: "Project started",
-          date: "2024-02-09T09:16:56.623Z",
-          by: "65c202d4aa62f32ffd1303cc",
-          _id: "65c5f18bb5204a81bde866d1",
-        },
-        {
-          type: "commented",
-          activity: "i like coding!!",
-          date: "2024-02-09T09:16:56.623Z",
-          by: "65c202d4aa62f32ffd1303cc",
-          _id: "65c5f19eb5204a81bde866dd",
-        },
-        {
-          type: "bug",
-          activity: "bug found",
-          date: "2024-02-09T09:16:56.623Z",
-          by: "65c202d4aa62f32ffd1303cc",
-          _id: "65c5f1abb5204a81bde866eb",
-        },
-      ],
-      subTasks: [
-        {
-          title: "Blog App Admin Dashboard",
-          date: "2024-02-08T00:00:00.000Z",
-          tag: "Website App",
-          _id: "65c3535476ed5c48f9440973",
-        },
-      ],
-      createdAt: "2024-02-09T07:33:27.590Z",
-      updatedAt: "2024-02-09T09:36:10.386Z",
-      __v: 4,
-    },
-    {
-      _id: "65c46026af6ec0118be9407a",
-      title: "Website Project Proposal Review",
-      date: "2024-02-07T00:00:00.000Z",
-      priority: "high",
-      stage: "todo",
-      assets: [
-        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707410130023hand-holding-writing-checklist-application-form-document-clipboard-white-background-3d-illustration.jpg?alt=media&token=08de4848-517f-48ca-a9b4-624744d5ddb0",
-        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707412301523image_processing20220706-26930-ktfgon.png?alt=media&token=6cd185c1-9fc3-4f52-bb0b-0d4a29e65b85",
-        "https://firebasestorage.googleapis.com/v0/b/taskmanager-557d7.appspot.com/o/1707412306237image_processing20220706-11953-1f826f4.png?alt=media&token=7270475f-a994-41fd-8ae6-62e00f72b0b3",
-      ],
-      team: [
-        {
-          _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
-          title: "Administrator",
-          role: "Admin",
-          email: "admin@gmail.com",
-        },
+
         {
           _id: "65c27a0e18c0a1b750ad5cad",
           name: "John Doe",
@@ -192,7 +140,7 @@ export const summary = {
     },
     {
       _id: "65c45fb6af6ec0118be94052",
-      title: "Task Manager Youtube Video",
+      title: "Project TODO app  Video",
       date: "2024-02-11T00:00:00.000Z",
       priority: "medium",
       stage: "completed",
@@ -261,7 +209,7 @@ export const summary = {
         },
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Rahul Khandelwal ",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -306,7 +254,7 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Rahul Khandelwal ",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -393,7 +341,7 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Rahul Khandelwal ",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -480,7 +428,7 @@ export const summary = {
       team: [
         {
           _id: "65c202d4aa62f32ffd1303cc",
-          name: "Codewave Asante",
+          name: "Rahul Khandelwal ",
           title: "Administrator",
           role: "Admin",
           email: "admin@gmail.com",
@@ -556,7 +504,7 @@ export const summary = {
     },
     {
       _id: "65c202d4aa62f32ffd1303cc",
-      name: "Codewave Asante",
+      name: "Rahul Khandelwal ",
       title: "Administrator",
       role: "Admin",
       createdAt: "2024-02-06T09:58:44.794Z",
@@ -603,7 +551,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Rahul Khandelwal ",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -624,7 +572,7 @@ export const tasks = [
     activities: [],
     subTasks: [
       {
-        title: "Task manager youtube tutorial",
+        title: "Project TODO app  tutorial",
         date: "2024-02-09T00:00:00.000Z",
         tag: "tutorial",
         _id: "65c5f153b5204a81bde866c8",
@@ -705,7 +653,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Rahul Khandelwal ",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -773,7 +721,7 @@ export const tasks = [
   },
   {
     _id: "65c45fb6af6ec0118be94052",
-    title: "Task Manager Youtube Video",
+    title: "Project TODO app  Video",
     date: "2024-02-11T00:00:00.000Z",
     priority: "medium",
     stage: "completed",
@@ -801,21 +749,21 @@ export const tasks = [
         type: "started",
         activity: "Project completed!!",
         date: "2024-02-08T18:13:14.717Z",
-        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Codewave" },
+        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Rahul Khandelwal" },
         _id: "65c51b998064dfd208b3f9",
       },
       {
         type: "commented",
         activity: "Project completed!!",
         date: "2024-02-08T18:13:14.717Z",
-        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Codewave" },
+        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Rahul Khandelwal" },
         _id: "65c51b98064df97d208b3f9",
       },
       {
         type: "completed",
         activity: "Project completed!!",
         date: "2024-02-08T18:13:14.717Z",
-        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Codewave" },
+        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Rahul Khandelwal" },
         _id: "65c51b998064df97d208b3f9",
       },
     ],
@@ -853,7 +801,7 @@ export const tasks = [
       },
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Rahul Khandelwal ",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -896,7 +844,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Rahul Khandelwal ",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -978,7 +926,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Rahul Khandelwal ",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -1060,7 +1008,7 @@ export const tasks = [
     team: [
       {
         _id: "65c202d4aa62f32ffd1303cc",
-        name: "Codewave Asante",
+        name: "Rahul Khandelwal ",
         title: "Administrator",
         email: "admin@gmail.com",
       },
@@ -1101,7 +1049,7 @@ export const tasks = [
 
 export const user = {
   _id: "662f32ffd1303cc",
-  name: "Codewave",
+  name: "Rahul Khandelwal",
   title: "Administrator",
   role: "Admin",
   email: "admin@mts.com",
@@ -1119,7 +1067,7 @@ export const activitiesData = [
     type: "started",
     activity: "started this task.",
     date: new Date("2023-01-15").toISOString(),
-    by: "Akwasi Asante",
+    by: "Akwasi ",
   },
   {
     _id: "1",
@@ -1132,9 +1080,9 @@ export const activitiesData = [
   {
     _id: "2",
     type: "assigned",
-    activity: "task to Codewave Asante",
+    activity: "task to Rahul Khandelwal ",
     date: new Date("2023-01-15").toISOString(),
-    by: "Akwasi Asante",
+    by: "Akwasi ",
   },
 
   {
@@ -1148,15 +1096,15 @@ export const activitiesData = [
   {
     _id: "5",
     type: "bug",
-    activity: "bug to Codewave Asante",
+    activity: "bug to Rahul Khandelwal ",
     date: new Date("2023-01-15").toISOString(),
-    by: "Akwasi Asante",
+    by: "Akwasi ",
   },
   {
     _id: "4",
     type: "completed",
-    activity: "Codewave Asante has completed the task assigned",
+    activity: "Rahul Khandelwal  has completed the task assigned",
     date: new Date("2023-01-15").toISOString(),
-    by: "Akwasi Asante",
+    by: "Akwasi ",
   },
 ];
