@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sure, here's the rewritten version with the same structure and code:
 
 ---
@@ -137,3 +138,6 @@ First, create the `.env` file in the client folder. The `.env` file should conta
 
 &nbsp;
 
+=======
+# TODO-APP
+>>>>>>> origin/main
